@@ -1,3 +1,0 @@
-#+TITLE: Cortex Theme
-
-Theme for my braindump. Currently largely copied from [[https://github.com/azlen/azlen.me/][azlen.me]].
