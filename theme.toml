@@ -3,13 +3,13 @@
 
 name = "Cortex"
 license = "MIT"
-licenselink = "https://github.com/jethrokuan/cortex/blob/master/LICENSE"
+licenselink = "https://github.com/ayrat555/cortex-dark/blob/master/LICENSE"
 description = "Theme for my braindump."
-homepage = "https://braindump.jethro.dev/"
+homepage = "https://braindump.badykov.com/"
 tags = []
 features = []
 min_version = "0.41"
 
 [author]
-  name = "Jethro Kuan"
-  homepage = "https://blog.jethro.dev/"
+  name = "Airat Badykov"
+  homepage = "https://www.badykov.com/"

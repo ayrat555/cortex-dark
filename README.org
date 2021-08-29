@@ -1,3 +1,7 @@
-#+TITLE: Cortex Theme
+#+TITLE: Cortex-Dark Theme
 
-Theme for my braindump. Currently largely copied from [[https://github.com/azlen/azlen.me/][azlen.me]].
+Theme for [my braindump](https://braindump.badykov.com/). The dark version of https://github.com/jethrokuan/braindump with search using lunr.js.
+
+** Configuration
+
+   Create a search page to show search results in "/content/search/_index.md".
