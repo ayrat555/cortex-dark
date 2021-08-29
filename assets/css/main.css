@@ -276,3 +276,8 @@ input:focus {
   outline: none !important;
   border:1px solid #ADBAC7;
 }
+
+#brain {
+  width: 40px;
+  margin-right: 5px;
+}
