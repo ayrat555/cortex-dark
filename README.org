@@ -1,6 +1,8 @@
 #+TITLE: Cortex-Dark Theme
 
-Theme for [my braindump](https://braindump.badykov.com/). The dark version of https://github.com/jethrokuan/braindump with search using lunr.js.
+Theme for [[https://braindump.badykov.com/][my braindump]] ([[https://github.com/ayrat555/braindump][github]]).
+
+It's a dark version of https://github.com/jethrokuan/braindump with search using lunr.js.
 
 ** Configuration
 
