@@ -5,6 +5,7 @@ p.redirect {
 .chroma.chroma, pre {
   background: var(--code-bg);
   border-radius: 6px;
+  font-size: 0.95em;
 }
 
 pre code {
@@ -26,7 +27,7 @@ a {
 }
 
 a.active {
-  background-color: var(--active-link-background-color);
+  background-color: var(--code-bg);
 }
 
 a:hover {
@@ -40,10 +41,8 @@ a svg.external-link-icon {
 
 blockquote {
   margin-left: 1rem;
-  font-style: italic;
-  border-left: 3px solid;
-  border-left-color: currentcolor;
-  border-color: var(--text-color);
+  border: 1px solid var(--border-color);
+  border-left-width: 4px;
   padding-left: 1em;
 }
 
@@ -80,21 +79,22 @@ pre {
     display: none;
     position: absolute;
     writing-mode: vertical-lr;
-    left: -12px;
-    top: 16px;
-    font-size: 24px;
+    font-size: 20px;
+    margin: 16px 0 0 0;
+    line-height: 42px;
     white-space: nowrap;
+    font-weight: normal;
   }
 
   .content {
-    padding: 20px;
+    padding: 20px 20px 1em;
   }
 
   .content > h1, .content > h2:first-child {
     margin-top: 0;
   }
 
-  // We want to fade out the content and fade in the title, so we have a 
+  // We want to fade out the content and fade in the title, so we have a
   // collapsing state. That shows everything with opacity 0
   .collapsed-title, .content, .bl-section {
     transition: opacity 0.2s ease-in;
@@ -158,8 +158,16 @@ iframe {
 }
 
 .bl-section {
-  padding: 1em;
-  border-top: 1px var(--border-color) solid;
+  padding: 12px;
+  background: var(--grid-bg);
+  margin: 0 20px 20px;
+  border-radius: 8px;
+
+  ul {
+    padding: 0;
+    margin: 8px 0 0 0;
+    list-style: none;
+  }
 }
 
 .backlinks {
@@ -171,6 +179,9 @@ iframe {
 .bl-section h4 {
   margin-top: 0;
   margin-bottom: 0;
+  color: var(--backlinks-heading);
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
 .backlinks a {
@@ -212,4 +223,3 @@ iframe {
     min-width: 100%;
   }
 }
-
