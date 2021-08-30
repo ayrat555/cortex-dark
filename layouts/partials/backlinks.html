@@ -1,6 +1,6 @@
 {{ $re := $.File.BaseFileName }}
 {{ $backlinks := slice }}
-{{ range .Site.AllPages }}
+{{ range .Site.Pages }}
    {{ if and (findRE $re .RawContent) (not (eq $re .File.BaseFileName)) }}
       {{ $backlinks = $backlinks | append . }}
    {{ end }}

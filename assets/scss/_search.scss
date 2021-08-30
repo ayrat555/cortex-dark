@@ -1,0 +1,15 @@
+#search {
+  margin-left: 10px;
+}
+
+input {
+  background-color: var(--grid-bg);
+  color: var(--fg);
+  border: 1px solid var(--border-color);
+}
+
+input:focus {
+  outline: none !important;
+  color: var(--fg);
+  border:1px solid var(--border-color);
+}
